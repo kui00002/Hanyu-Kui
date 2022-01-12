@@ -4,14 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MTM6201 Github Pages</title>
+    <title>Hanyu Kui's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54535f3593.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,800;1,400;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hanyu Kui</h1>
-    <ul>
-        <li>MTM6201 - 010</li>
-        <li>kui00002</li>
-        <li>041020461</li>
-    </ul>
+    <!-- Sign class named container -->
+    <!-- In the body I declare 5 div, all named container, so I can style them easily in CSS -->
+    <div class="container">
+        <!-- In the first container, I set header and banner -->
+        <!-- Sign class named siteheader -->
+        <header class="siteheader">
+            <!-- Sign class named headericon to display social media icons -->
+            <div class="headericon">   
+                <!-- Import icon image from fontawesome website -->
+                <!-- Add my own socail media link -->
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square"></i></a>
+            </div>    
+            <!-- Sign class named mainnav, for the website's main navigation bar -->
+            <nav class="mainnav">
+                <ul>
+                    <!-- Link all other pages in the website -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <!-- Import banner image from local path -->
+        <!-- Put all banner images in html and use different one for different version(phone/mobile/desktop) -->
+        <div class="banner">
+            <img src="./images/banner.svg" alt="" id="mobilebanner">
+        </div>
+    </div>
+
+    <!-- The second container, "About" section -->
+    <div class="container">
+        <div class='firstcontent'>
+            <h1>My Passion and Focus</h1>
+            <!-- Import image from local path -->
+            <img src="images/About.jpg" alt="about">
+            <div class="subclass">
+            <p>My name is Hanyu Kui, an Interactive Media Design student at Algonquin College. Holding a master’s degree in Information System Management of Ottawa University.</p>
+            <button>Read More</button>
+            </div>
+        </div>   
+    </div>
+
+    <!-- The third container, "Project Portfolio" section -->
+    <div class="container">
+        <div class="gallery">
+            <div class="gallery-title">
+                <h2>Project Portfolio</h2>
+            </div>
+            <div class="mainpagegallery">
+                <!-- Use grid in CSS to style the layout -->
+                <div class="photoone">
+                    <!-- Import image from local path -->
+                    <img src="images/Photograph1.jpg" alt="">
+                    <div class="photodescribtionone">
+                        <h4>Photograph Work</h4>
+                        <p>Alexandra Bridge, Ottawa</p>
+                    </div>
+                </div>
+                <div class="phototwo">
+                    <!-- Import image from local path -->
+                    <img src="images/Photograph2.jpg" alt="">
+                    <div class="photodescribtiontwo">
+                        <h4>Photograph Work</h4>
+                        <p>Forbidden City, Beijing</p>
+                    </div>
+                </div>
+                <div class="photothree">
+                    <!-- Import image from local path -->
+                    <img src="images/Graphic1.jpg" alt="">
+                    <div class="photodescribtionthree">
+                        <h4>Graphic Design Work</h4>
+                        <p>Pikachu Character</p>
+                    </div>
+                </div>
+                <div class="photofour">
+                    <!-- Import image from local path -->
+                    <img src="images/Graphic3.jpg" alt="">
+                    <div class="photodescribtionfour">
+                        <h4>Graphic Design Work</h4>
+                        <p>Justice for Frogs Logo</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add "Read More" button -->
+            <div>
+                <button>Read More</button>
+            </div>
+        </div>      
+    </div>
+
+    <!-- The fourth container, "Contact" section -->
+    <div class="container">
+        <div class="content">
+            <h2>Contact me</h2>
+            <p>Hello again, I am Hanyu Kui. For any questions, job opportunities, discussion, please feel free to contact me at your convenience. My E-mail address is kuihanyu@gmail.com and my phone number is +1(613)890-3750</p>
+            <button>Read more</button>
+        </div>
+    </div>
+
+    <!-- The fifth container, footer section -->
+    <div class="container">
+        <footer>
+            <!-- Use grid in CSS to style the footer layout -->
+            <div class="subnav">
+                <nav>
+                    <!-- Use list to display the information and links -->
+                    <!-- Information listed at the left of the footer -->
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Policy</a></li> 
+                        <li><a href="#">Service</a></li> 
+                    </ul>
+                </nav>
+            </div>
+            <!-- Subscribe section, in the middle of the footer -->
+            <div class="footer-content">
+                <label>Subscribe to Our Newsletter</label><br>
+                <input type="text" value="Email address">  
+            </div>
+            <!-- List and import social media icons and links -->
+            <!-- Import icon image from fontawesome website -->
+            <!-- Add my own socail media link -->
+            <div class="footericon">
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram">&nbsp;INSTAGRAM</i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter">&nbsp;TWITTER</i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square">&nbsp;FACEBOOK</i></a>
+            </div>
+            <!-- Contact information, listed at the right of the footer -->
+            <div class="footercontact">
+                <p>19 Whitehill, Neapean</p>
+                <p>Ottawa, ON K2G3A9</p>
+                <p>+1(613)890-3750</p>
+                <p>kuihanyu@mail.com</p>               
+            </div>   
+        </footer>
+    </div>
 </body>
 </html>

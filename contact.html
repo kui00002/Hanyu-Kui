@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanyu Kui's Portfolio - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54535f3593.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,800;1,400;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sign class named container -->
+    <!-- In the body I declare the header and footer all named container, so I can style them easily in CSS -->
+    <div class="container">
+        <!-- In the first container, I set header and banner -->
+        <!-- Sign class named siteheader -->
+        <header class="siteheader">
+            <!-- Sign class named headericon to display social media icons -->
+            <div class="headericon">   
+                <!-- Import icon image from fontawesome website -->
+                <!-- Add my own socail media link -->
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square"></i></a>
+            </div>  
+            <!-- Sign class named mainnav, for the website's main navigation bar -->
+            <nav class="mainnav">
+                <ul>
+                    <!-- Link all other pages in the website -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>  
+        </header>
+    </div>
+
+    <!-- Sign class named contact-content to display the contact information -->
+    <div class="contact-content">
+        <h2>Connect with me</h2>
+        <div class="sub-contact-content">
+            <h3>Contact Information</h3>
+            <p>Hello again, I am Hanyu Kui. For any questions, job opportunities, discussion, please feel free to contact me at your convenience. My E-mail address is kuihanyu@gmail.com. My phone number is +1(613)8903750.</p>
+        </div>
+        <!-- Add contact form-1 and form-2 -->
+        <div class="form">
+            <form>
+                <h4>Reach me out today</h4>
+                <div class="in-form">
+                <div class="form-1">
+                    <label>First name</label><br>
+                    <input type="text"><br>
+                    <label>Last name</label><br>
+                    <input type="text"><br>
+                    <label>E-mail</label><br>
+                    <input type="text"><br>
+                </div>
+                <div class="form-2">
+                    <label>Subject</label><br>
+                    <input type="text"><br>
+                    <label>Message</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Sign class also named container, import location map from Google Map -->
+    <div class="container">
+        <div class="location">
+        <h2>Location</h2>
+        <!-- Import location map from Google Map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.698440449984!2d-79.38288808427693!3d43.654442060368034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cb510746bd%3A0x8b89147b8cbbc837!2sCF%20Toronto%20Eaton%20Centre!5e0!3m2!1sen!2sca!4v1628795949609!5m2!1sen!2sca"  style="border:0;"  loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- The third container, footer section -->
+    <div class="container">
+        <footer>
+            <!-- Use grid in CSS to style the footer layout -->
+            <div class="subnav">
+                <nav>
+                    <!-- Use list to display the information and links -->
+                    <!-- Information listed at the left of the footer -->
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Policy</a></li> 
+                        <li><a href="#">Service</a></li> 
+                    </ul>
+                </nav>
+            </div>
+            <!-- Subscribe section, in the middle of the footer -->
+            <div class="footer-content">
+                <label>Subscribe to Our Newsletter</label><br>
+                <input type="text" value="Email address">    
+            </div>
+            <!-- List and import social media icons and links -->
+            <!-- Import icon image from fontawesome website -->
+            <!-- Add my own socail media link -->
+            <div class="footericon">
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram">&nbsp;INSTAGRAM</i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter">&nbsp;TWITTER</i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square">&nbsp;FACEBOOK</i></a>
+            </div>
+            <!-- Contact information, listed at the right of the footer -->
+            <div class="footercontact">
+                <p>19 Whitehill, Neapean</p>
+                <p>Ottawa, ON K2G3A9</p>
+                <p>+1(613)890-3750</p>
+                <p>kuihanyu@mail.com</p>                               
+            </div>           
+        </footer>
+    </div>
+</body>
+</html>

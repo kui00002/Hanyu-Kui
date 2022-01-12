@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanyu Kui's Portfolio - Graphic Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54535f3593.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,800;1,400;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sign class named container -->
+    <!-- In the body I declare the header and footer all named container, so I can style them easily in CSS -->
+    <div class="container">
+        <!-- In the first container, I set header and banner -->
+        <!-- Sign class named siteheader -->
+        <header class="siteheader">
+            <div class="headericon">   
+                <!-- Import icon image from fontawesome website -->
+                <!-- Add my own socail media link -->
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square"></i></a>
+            </div>  
+            <!-- Sign class named mainnav, for the website's main navigation bar -->
+            <nav class="mainnav">
+                <ul>
+                    <!-- Link all other pages in the website -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>    
+        </header>   
+    </div>
+
+    <!-- Sign class named main-graphic to display all the graphic works -->
+    <div class="main-graphic">
+        <h2>Graphic Design</h2>
+        <!-- Use grid in CSS to style the layout -->
+        <div class="graphic-gallery">
+            <!-- Sign graphic-1,graphic-2,graphic-3,graphic-4,graphic-5 as class name and use grid in CSS to style the layout -->
+            <div class="graphic-1">
+                <picture>
+                    <!-- Use picture tag to import and display image from local path -->
+                    <source media="(min-width: 1024px)" srcset="./images/Graphic5panoramic.jpg">
+                    <img src="./images/Graphic5.jpg" alt="">
+                </picture>
+                <div class="gtitle-1">
+                    <p>Sci-Fii Poster - Illustrator and Photoshop</p>
+                </div>
+            </div>
+            <div class="graphic-2">
+                <div class="gtitle-2">
+                    <p>Character Vectorization</p>
+                </div>
+                <!-- Use picture tag to import and display image from local path -->
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="./images/Graphic1square.jpg">
+                    <img src="./images/Graphic1.jpg" alt="">
+                </picture>   
+            </div>
+            <div class="graphic-3">
+                <div class="gtitle-3">
+                    <p>Justice for Frogs Logo</p>
+                </div>
+                <!-- Use picture tag to import and display image from local path -->
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="./images/Graphic3square.jpg">
+                    <img src="./images/Graphic3.jpg" alt="">
+                </picture>
+            </div>
+            <div class="graphic-4">
+                <div class="gtitle-4">
+                    <p>Avatar Icon Design</p>
+                </div>
+                <!-- Use picture tag to import and display image from local path -->
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="./images/Graphic2square.jpg">
+                    <img src="./images/Graphic2.jpg" alt="">
+                </picture>
+            </div>
+            <div class="graphic-5">
+                <div class="gtitle-5">
+                    <p>Animals Combination</p>
+                </div>
+                <!-- Use picture tag to import and display image from local path -->
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="./images/Graphic4square.jpg">
+                    <img src="./images/Graphic4square.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+    <!-- The second container, footer section -->
+    <div class="container">
+        <footer>
+            <!-- Use grid in CSS to style the footer layout -->
+            <div class="subnav">
+                <nav>
+                    <!-- Use list to display the information and links -->
+                    <!-- Information listed at the left of the footer -->
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Policy</a></li> 
+                        <li><a href="#">Service</a></li> 
+                    </ul>
+                </nav>
+            </div>
+            <!-- Subscribe section, in the middle of the footer -->
+            <div class="footer-content">
+                <label>Subscribe to Our Newsletter</label><br>
+                <input type="text" value="Email address">    
+            </div>
+            <!-- List and import social media icons and links -->
+            <!-- Import icon image from fontawesome website -->
+            <!-- Add my own socail media link -->
+            <div class="footericon">
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram">&nbsp;INSTAGRAM</i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter">&nbsp;TWITTER</i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square">&nbsp;FACEBOOK</i></a>
+            </div>
+            <!-- Contact information, listed at the right of the footer -->
+            <div class="footercontact">
+                <p>19 Whitehill, Neapean</p>
+                <p>Ottawa, ON K2G3A9</p>
+                <p>+1(613)890-3750</p>
+                <p>kuihanyu@mail.com</p>                               
+            </div>           
+        </footer>
+    </div>
+</body>
+</html>

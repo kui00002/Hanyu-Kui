@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanyu Kui's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/245049fbce.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,800;1,400;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sign class named container -->
+    <!-- In the body I declare the header and footer all named container, so I can style them easily in CSS -->
+    <div class="container">
+        <!-- In the first container, I set header and banner -->
+        <!-- Sign class named siteheader -->
+        <header class="siteheader">
+            <!-- Sign class named headericon to display social media icons -->
+            <div class="headericon">   
+                <!-- Import icon image from fontawesome website -->
+                <!-- Add my own socail media link -->
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square"></i></a>
+            </div>   
+            <!-- Sign class named mainnav, for the website's main navigation bar -->
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+        </header>
+    </div>
+    
+    <!-- Sign class named portfolio-intro to display all project works -->
+    <div class="portfolio-intro">
+        <h1>Project Portfolio</h1>
+        <div class="portfolio-content">
+            <h3>I’m a dedicated interactive media designer</h3>
+            <p>I live in a world of infinite possibilities, preferring to see things not as they are but as they could be. I'm a problem solver with a keen interest in contributing to society through design.</p>
+        </div>
+    </div>
+    <!-- Use grid in CSS to style the layout -->
+    <!-- Sign class named portfolio-gallery-1 to display graphic design works -->
+    <div class="portfolio-gallery-1">
+        <h2>Photography</h2>
+        <div class="photo">
+            <div class="photo-1">
+                <img src="./images/Photograph1.jpg" alt="">
+                <!-- Import icon image from fontawesome website -->
+                <div class="photo-content-1">  
+                    <i class="fas fa-heart"></i>
+                    <p>69</p>
+                    <i class="fas fa-comment-dots"></i>
+                    <p>150</p>
+                </div>
+            </div>
+            <div class="photo-2">
+                <img src="./images/Photograph2.jpg" alt="">
+                <!-- Import icon image from fontawesome website -->
+                <div class="photo-content-2">  
+                    <i class="fas fa-heart"></i>
+                    <p>93</p>
+                    <i class="fas fa-comment-dots"></i>
+                    <p>110</p>
+                </div>
+            </div>
+            <div class="photo-3">
+                <img src="./images/Photograph3.jpg" alt="">
+                <!-- Import icon image from fontawesome website -->
+                <div class="photo-content-3">  
+                    <i class="fas fa-heart"></i>
+                    <p>102</p>
+                    <i class="fas fa-comment-dots"></i>
+                    <p>210</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add button and link to photo page -->
+        <button type="button" onclick="location.href='./photo.html';">Read More</button> 
+    </div>
+    <!-- Sign class named portfolio-gallery-2 to display graphic design works -->
+    <div class="portfolio-gallery-2">
+        <h2>Graphic Design</h2>
+        <div class="graphic-design">
+            <!-- Sign g1,g2,g3 as class name and use grid in CSS to style the layout -->
+            <div class="g1">
+                <img src="./images/Graphic2.jpg" alt="">
+                <!-- Import icon image from fontawesome website -->
+                <div class="photo-content-4">  
+                    <i class="fas fa-heart"></i>
+                    <p>39</p>
+                    <i class="fas fa-comment-dots"></i>
+                    <p>60</p>
+                </div>
+            </div>
+            <div class="g2">
+                <img src="./images/Graphic1.jpg" alt="">
+                <!-- Import icon image from fontawesome website -->
+                <div class="photo-content-5">  
+                    <i class="fas fa-heart"></i>
+                    <p>45</p>
+                    <i class="fas fa-comment-dots"></i>
+                    <p>99</p>
+                </div>
+            </div>
+            <div class="g3">
+                <img src="./images/Graphic3.jpg" alt="">
+                <!-- Import icon image from fontawesome website -->
+                <div class="photo-content-6">  
+                    <i class="fas fa-heart"></i>
+                    <p>23</p>
+                    <i class="fas fa-comment-dots"></i>
+                    <p>68</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add button and link to graphic page -->
+        <button type="button" onclick="location.href='./graphic.html';">Read More</button>  
+    </div>
+
+    <!-- The second container, footer section -->
+    <div class="container">
+        <footer>
+            <!-- Use grid in CSS to style the footer layout -->
+            <div class="subnav">
+                <nav>
+                    <!-- Use list to display the information and links -->
+                    <!-- Information listed at the left of the footer -->
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Policy</a></li> 
+                        <li><a href="#">Service</a></li> 
+                    </ul>
+                </nav>
+            </div>
+            <!-- Subscribe section, in the middle of the footer -->
+            <div class="footer-content">
+                <label>Subscribe to Our Newsletter</label><br>
+                <input type="text" value="Email address">    
+            </div>
+            <!-- List and import social media icons and links -->
+            <!-- Import icon image from fontawesome website -->
+            <!-- Add my own socail media link -->
+            <div class="footericon">
+                <a href="https://www.instagram.com/ethereal.kay.kilig/"><i class="fab fa-instagram">&nbsp;INSTAGRAM</i></a>
+                <a href="https://twitter.com/kuihanyu"><i class="fab fa-twitter">&nbsp;TWITTER</i></a>
+                <a href="https://www.facebook.com/hanyu.kui"><i class="fab fa-facebook-square">&nbsp;FACEBOOK</i></a>
+            </div>
+            <!-- Contact information, listed at the right of the footer -->
+            <div class="footercontact">
+                <p>19 Whitehill, Neapean</p>
+                <p>Ottawa, ON K2G3A9</p>
+                <p>+1(613)890-3750</p>
+                <p>kuihanyu@mail.com</p>                               
+            </div>           
+        </footer>
+    </div>
+</body>
+</html>
