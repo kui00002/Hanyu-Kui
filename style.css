@@ -861,6 +861,27 @@ div.card-container-3 {
     margin: 0 auto;  
 }
 
+.portfolio-gallery-3 h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 5%;
+    margin-top: 2%; 
+}
+
+.portfolio-gallery-3 .designnav{
+    padding-bottom: 5%;
+}
+
+.designnav a {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.designnav li {
+    padding: 1% 5% 2% 5%; 
+}
+
 .graphic-design {
     padding-bottom: 5%;
 }
